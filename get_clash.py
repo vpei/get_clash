@@ -1,5 +1,8 @@
 import requests
 import os
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 
 # 发起 HTTP 请求并获取网页内容
@@ -7,8 +10,18 @@ url = 'https://wanshanziwo.eu.org/clash'  # 替换为你要爬取的网址
 response = requests.get(url)
 html = response.text
 
+# Setup
+options = Options()
+#options.add_argument("--headless")
+browser = webdriver.Chrome(executable_path=r'chromedriver.exe', options=options)
+# Parse or automation
+browser.get(url)
+
+
+
 # 使用 Beautiful Soup 解析 HTML
-soup = BeautifulSoup(html, 'html.parser')
+soup = BeautifulSoup(browser.page_source, 'html.parser')
+browser.implicitly_wait(5)
 # 提取特定内容
 # 这里只是一个示例，你可以根据需要修改提取的逻辑
 # body > div.container > section:nth-child(2) > div > div > table > tbody > tr:nth-child(1) > td:nth-child(2)
