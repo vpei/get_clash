@@ -35,6 +35,8 @@ if element:
     print(rand_value)
     clash_url="https://wanshanziwo.eu.org/clash/proxies?c=HK,TW&type=ss,ssr,vmess,trojan,vless,wireguard&acl=true&rand="+rand_value
     airport_url="https://wanshanziwo.eu.org/airport?rand="+rand_value
+    print(clash_url)
+    print(airport_url)
     response_clash = requests.get(clash_url,headers=headers)
     clash = response_clash.text
     file_path = 'clash.txt'
