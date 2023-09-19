@@ -14,7 +14,7 @@ soup = BeautifulSoup(html, 'html.parser')
 # body > div.container > section:nth-child(2) > div > div > table > tbody > tr:nth-child(1) > td:nth-child(2)
 # 使用 CSS 选择器查找指定元素
 element = soup.select_one('html > body > div.container > section:nth-child(2) > div > div > table > tbody > tr:nth-child(1) > td:nth-child(2)')
-
+print(html)
 # 提取元素的文本内容
 if element:
     text = element.text
