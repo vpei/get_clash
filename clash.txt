@@ -20,9 +20,9 @@ dns:
 proxies:
  - {"name":"🇭🇰HK_01","server":"103.15.217.182","type":"trojan","country":"🇭🇰HK","port":33058,"password":"QHhbhwe6lj","sni":"103.15.217.182","skip-cert-verify":true,"udp":true}
  - {"name":"🇭🇰HK_02","server":"103.234.53.23","type":"trojan","country":"🇭🇰HK","port":50014,"password":"73658d71-be45-4495-bc3e-e69d36ce73b5","sni":"telewebion.com","skip-cert-verify":true}
- - {"name":"🇭🇰HK_03","server":"182.16.1.194","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":0,"cipher":"auto","network":"ws","servername":"182.16.1.194","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/opt/video/images","headers":{"HOST":"182.16.1.194"}}}
- - {"name":"🇭🇰HK_04","server":"182.16.1.194","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":32,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"ws-opts":{"path":"/opt/video/images","headers":{"Host":""}}}
- - {"name":"🇭🇰HK_05","server":"182.16.1.194","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":32,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/opt/video/images"}}
+ - {"name":"🇭🇰HK_03","server":"182.16.1.194","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":32,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"ws-opts":{"path":"/opt/video/images","headers":{"Host":""}}}
+ - {"name":"🇭🇰HK_04","server":"182.16.1.194","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":32,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/opt/video/images"}}
+ - {"name":"🇭🇰HK_05","server":"182.16.1.194","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":0,"cipher":"auto","network":"ws","servername":"182.16.1.194","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/opt/video/images","headers":{"HOST":"182.16.1.194"}}}
  - {"name":"🇭🇰HK_06","server":"20.239.72.23","type":"vless","country":"🇭🇰HK","port":37322,"udp":true,"uuid":"711b7b06-dccd-46ee-8d73-d834c3370ac4","network":"tcp","skip-cert-verify":true,"client-fingerprint":"chrome"}
  - {"name":"Relay_🇭🇰HK-🇺🇸US_07","server":"38.150.14.125","type":"vless","country":"🇭🇰HK","port":52290,"udp":true,"uuid":"73236369-f795-4936-9b3e-f79df0495f4a","network":"tcp","skip-cert-verify":true,"client-fingerprint":"chrome"}
  - {"name":"🇭🇰HK_08","server":"91.229.132.31","type":"vmess","country":"🇭🇰HK","port":8088,"uuid":"3a3befc9-e26e-431a-a442-a6ed789df2e9","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"ws-opts":{"path":"/aa?ed=2048"}}
@@ -38,7 +38,7 @@ proxies:
  - {"name":"Relay_🇹🇼TW-🇹🇼TW_18","server":"wqryo-1075-v2-0.d-hinet-02.ddll.bond","type":"vmess","country":"🇹🇼TW","port":888,"uuid":"a590e692-4c8d-42dd-ba80-b1765a34f699","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"}}
  - {"name":"Relay_🇹🇼TW-🇹🇼TW_19","server":"rzuee-1075-tr-0.d-hinet-02.ddll.bond","type":"trojan","country":"🇹🇼TW","port":889,"password":"LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY","sni":"cdn.cjhh.lol","skip-cert-verify":true,"udp":true}
  - {"name":"Relay_🇹🇼TW-🇹🇼TW_20","server":"gamespeed-gateway-1.numastergame.com","type":"vmess","country":"🇹🇼TW","port":11872,"udp":true,"uuid":"0913b1ac-1f6c-436b-99b4-a5d6e343d025","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
- - {"name":"🇹🇼TW_21","server":"www.dtku49.xyz","type":"ss","country":"🇹🇼TW","port":10088,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+ - {"name":"Relay_🇹🇼TW-🇹🇼TW_21","server":"www.dtku49.xyz","type":"ss","country":"🇹🇼TW","port":10088,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
  - {"name":"Relay_🇹🇼TW-🇹🇼TW_22","server":"tw1.kidcc.xyz","type":"vmess","country":"🇹🇼TW","port":8443,"uuid":"a8974bec-526d-4b4e-a46f-f0d6626ca576","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/"}}
  - {"name":"Relay_🇹🇼TW-🇹🇼TW_23","server":"tw1.kidcc.xyz","type":"vmess","country":"🇹🇼TW","port":8443,"uuid":"a8974bec-526d-4b4e-a46f-f0d6626ca576","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"ws-opts":{"path":"/","headers":{"Host":"tw1.kidcc.xyz"}}}
 
@@ -71,7 +71,7 @@ proxy-groups:
       - Relay_🇹🇼TW-🇹🇼TW_18
       - Relay_🇹🇼TW-🇹🇼TW_19
       - Relay_🇹🇼TW-🇹🇼TW_20
-      - 🇹🇼TW_21
+      - Relay_🇹🇼TW-🇹🇼TW_21
       - Relay_🇹🇼TW-🇹🇼TW_22
       - Relay_🇹🇼TW-🇹🇼TW_23
 
@@ -101,7 +101,7 @@ proxy-groups:
       - Relay_🇹🇼TW-🇹🇼TW_18
       - Relay_🇹🇼TW-🇹🇼TW_19
       - Relay_🇹🇼TW-🇹🇼TW_20
-      - 🇹🇼TW_21
+      - Relay_🇹🇼TW-🇹🇼TW_21
       - Relay_🇹🇼TW-🇹🇼TW_22
       - Relay_🇹🇼TW-🇹🇼TW_23
 
@@ -130,7 +130,7 @@ proxy-groups:
       - Relay_🇹🇼TW-🇹🇼TW_18
       - Relay_🇹🇼TW-🇹🇼TW_19
       - Relay_🇹🇼TW-🇹🇼TW_20
-      - 🇹🇼TW_21
+      - Relay_🇹🇼TW-🇹🇼TW_21
       - Relay_🇹🇼TW-🇹🇼TW_22
       - Relay_🇹🇼TW-🇹🇼TW_23
 
@@ -160,7 +160,7 @@ proxy-groups:
       - Relay_🇹🇼TW-🇹🇼TW_18
       - Relay_🇹🇼TW-🇹🇼TW_19
       - Relay_🇹🇼TW-🇹🇼TW_20
-      - 🇹🇼TW_21
+      - Relay_🇹🇼TW-🇹🇼TW_21
       - Relay_🇹🇼TW-🇹🇼TW_22
       - Relay_🇹🇼TW-🇹🇼TW_23
 
@@ -203,7 +203,7 @@ proxy-groups:
       - Relay_🇹🇼TW-🇹🇼TW_18
       - Relay_🇹🇼TW-🇹🇼TW_19
       - Relay_🇹🇼TW-🇹🇼TW_20
-      - 🇹🇼TW_21
+      - Relay_🇹🇼TW-🇹🇼TW_21
       - Relay_🇹🇼TW-🇹🇼TW_22
       - Relay_🇹🇼TW-🇹🇼TW_23
 
