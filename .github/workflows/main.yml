@@ -1,0 +1,33 @@
+name: Web Scraping
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  scrape_and_write:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    - name: Install dependencies
+      run: pip install beautifulsoup4 requests
+
+    - name: Run web scraper
+      run: python get_clash.py
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add clash.txt
+        git commit -m "Update scraped data"
+        git push
