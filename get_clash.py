@@ -25,14 +25,14 @@ if element:
   
     print(text)
     # 解析 URL
-    parsed_url = urlparse(url)
+    parsed_url = urlparse(text)
 
     # 获取参数字典
     params = parse_qs(parsed_url.query)
 
     # 获取 rand 参数的值
     rand_value = params.get('rand', [''])[0]
-    print(rand_value)
+    print("随机值为:",rand_value)
     clash_url="https://wanshanziwo.eu.org/clash/proxies?c=HK,TW&type=ss,ssr,vmess,trojan,vless,wireguard&acl=true&rand="+rand_value
     airport_url="https://wanshanziwo.eu.org/airport?rand="+rand_value
     print(clash_url)
