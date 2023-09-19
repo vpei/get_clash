@@ -17,7 +17,19 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.x
+    - name: Install Chrome browser
+      run: |
+        wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        sudo dpkg -i google-chrome-stable_current_amd64.deb
+        sudo apt-get -f install -y
 
+    - name: Install Chrome WebDriver
+      run: |
+        LATEST=$(wget -q -O - https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
+        wget https://chromedriver.storage.googleapis.com/$LATEST/chromedriver_linux64.zip
+        unzip chromedriver_linux64.zip
+        sudo mv chromedriver /usr/local/bin/chromedriver
+        sudo chmod +x /usr/local/bin/chromedriver
     - name: Install dependencies
       run: pip install beautifulsoup4 requests selenium
 
