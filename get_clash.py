@@ -21,7 +21,7 @@ element = soup.select_one('html > body > div.container > section:nth-child(2) > 
 # 提取元素的文本内容
 if element:
     text = element.text
-    response_clash = requests.get(text)
+    response_clash = requests.get(text,headers=headers)
     clash = response_clash.text
     print(clash)
     file_path = 'clash.txt'
