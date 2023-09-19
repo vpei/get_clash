@@ -19,7 +19,7 @@ jobs:
         python-version: 3.x
 
     - name: Install dependencies
-      run: pip install beautifulsoup4 requests
+      run: pip install beautifulsoup4 requests selenium
 
     - name: Run web scraper
       run: python ./get_clash.py
