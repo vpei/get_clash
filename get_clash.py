@@ -1,6 +1,7 @@
 import requests
 import os
 from bs4 import BeautifulSoup
+from urllib.parse import urlparse, parse_qs
 
 # 发起 HTTP 请求并获取网页内容
 headers = {
