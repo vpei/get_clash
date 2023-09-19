@@ -13,7 +13,7 @@ html = response.text
 # Setup
 options = Options()
 #options.add_argument("--headless")
-browser = webdriver.Chrome(executable_path=r'chromedriver.exe', options=options)
+browser = webdriver.Chrome(options=options)
 # Parse or automation
 browser.get(url)
 
