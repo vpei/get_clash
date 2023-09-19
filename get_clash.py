@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
-url = 'https://wanshanziwo.eu.org/clash'  # 替换为你要爬取的网址
+url = 'https://wanshanziwo.eu.org'  # 替换为你要爬取的网址
 response = requests.get(url,headers=headers)
 html = response.text
 # 使用 Beautiful Soup 解析 HTML
@@ -16,7 +16,7 @@ print(html)
 # 这里只是一个示例，你可以根据需要修改提取的逻辑
 # body > div.container > section:nth-child(2) > div > div > table > tbody > tr:nth-child(1) > td:nth-child(2)
 # 使用 CSS 选择器查找指定元素
-element = soup.select_one('html > body > div.container > section:nth-child(2) > div > div > table > tbody > tr:nth-child(1) > td:nth-child(2)')
+element = soup.select_one('html > body > div.container > section:nth-child(4) > div > table > tbody > tr:nth-child(4) > td:nth-child(2)')
 
 # 提取元素的文本内容
 if element:
