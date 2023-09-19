@@ -23,7 +23,7 @@ if element:
     text = element.text
     response_clash = requests.get(text,headers=headers)
     clash = response_clash.text
-    print(clash)
+    print(text)
     file_path = 'clash.txt'
     if not os.path.exists(file_path):
         with open(file_path, 'x', encoding='utf-8') as file:
