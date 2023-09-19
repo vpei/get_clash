@@ -21,9 +21,21 @@ element = soup.select_one('html > body > div.container > section:nth-child(4) > 
 # 提取元素的文本内容
 if element:
     text = element.text
-    response_clash = requests.get(text,headers=headers)
-    clash = response_clash.text
+  
     print(text)
+    # 解析 URL
+    parsed_url = urlparse(url)
+
+    # 获取参数字典
+    params = parse_qs(parsed_url.query)
+
+    # 获取 rand 参数的值
+    rand_value = params.get('rand', [''])[0]
+    print(rand_value)
+    clash_url="https://wanshanziwo.eu.org/clash/proxies?c=HK,TW&type=ss,ssr,vmess,trojan,vless,wireguard&acl=true&rand="+rand_value
+    airport_url="https://wanshanziwo.eu.org/airport?rand="+rand_value
+    response_clash = requests.get(clash_url,headers=headers)
+    clash = response_clash.text
     file_path = 'clash.txt'
     if not os.path.exists(file_path):
         with open(file_path, 'x', encoding='utf-8') as file:
@@ -32,6 +44,18 @@ if element:
     else:
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(clash)
+            print('内容已写入文件')
+
+    response_airport = requests.get(airport_url,headers=headers)
+    airport = response_airport.text
+    file_path = 'clash_airport.txt'
+    if not os.path.exists(file_path):
+        with open(file_path, 'x', encoding='utf-8') as file:
+            file.write(airport)
+            print('文件已创建并内容已写入')
+    else:
+        with open(file_path, 'w', encoding='utf-8') as file:
+            file.write(airport)
             print('内容已写入文件')
 else:
     print('Element not found.')
