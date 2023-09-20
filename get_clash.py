@@ -48,7 +48,7 @@ if element:
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(clash)
             print('内容已写入文件')
-
+    time.sleep(5)
     response_airport = requests.get(airport_url,headers=headers)
     airport = response_airport.text
     file_path = 'clash_airport.txt'
