@@ -50,6 +50,9 @@ if element:
             file.write(clash)
             print('内容已写入文件')
     time.sleep(5)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36'
+    }
     response_airport = requests.get(airport_url,headers=headers)
     airport = response_airport.text
     file_path = 'clash_airport.txt'
