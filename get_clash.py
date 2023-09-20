@@ -1,5 +1,6 @@
 import requests
 import os
+import time
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, parse_qs
 
