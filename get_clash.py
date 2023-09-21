@@ -40,29 +40,31 @@ if element:
     print(airport_url)
     response_clash = requests.get(clash_url,headers=headers)
     clash = response_clash.text
-    file_path = 'clash.txt'
-    if not os.path.exists(file_path):
-        with open(file_path, 'x', encoding='utf-8') as file:
-            file.write(clash)
-            print('文件已创建并内容已写入')
-    else:
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(clash)
-            print('内容已写入文件')
-    time.sleep(5)
+    if clash.startswith('#'):
+        file_path = 'clash.txt'
+        if not os.path.exists(file_path):
+            with open(file_path, 'x', encoding='utf-8') as file:
+                file.write(clash)
+                print('文件已创建并内容已写入')
+        else:
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(clash)
+                print('内容已写入文件')
+        time.sleep(5)
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36'
     }
     response_airport = requests.get(airport_url,headers=headers)
     airport = response_airport.text
-    file_path = 'clash_airport.txt'
-    if not os.path.exists(file_path):
-        with open(file_path, 'x', encoding='utf-8') as file:
-            file.write(airport)
-            print('文件已创建并内容已写入')
-    else:
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(airport)
-            print('内容已写入文件')
+    if airport.startswith('#'):
+        file_path = 'clash_airport.txt'
+        if not os.path.exists(file_path):
+            with open(file_path, 'x', encoding='utf-8') as file:
+                file.write(airport)
+                print('文件已创建并内容已写入')
+        else:
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(airport)
+                print('内容已写入文件')
 else:
     print('Element not found.')
