@@ -40,7 +40,7 @@ if element:
     print(airport_url)
     response_clash = requests.get(clash_url,headers=headers)
     clash = response_clash.text
-    print('clash.text: '+clash)
+    print('clash.text: '+clash[:10])
     if clash.startswith('#'):
         file_path = 'clash.txt'
         if not os.path.exists(file_path):
@@ -57,7 +57,7 @@ if element:
     }
     response_airport = requests.get(airport_url,headers=headers)
     airport = response_airport.text
-    print('airport.text: '+airport)
+    print('airport.text: '+airport[:10])
     if airport.startswith('#'):
         file_path = 'clash_airport.txt'
         if not os.path.exists(file_path):
