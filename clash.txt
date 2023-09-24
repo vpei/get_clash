@@ -25,16 +25,16 @@ proxies:
  - {"name":"Relay_🇭🇰HK-🇺🇸US_05","server":"38.150.14.125","type":"vless","country":"🇭🇰HK","port":52290,"udp":true,"uuid":"73236369-f795-4936-9b3e-f79df0495f4a","network":"tcp","skip-cert-verify":true,"client-fingerprint":"chrome"}
  - {"name":"🇭🇰HK_06","server":"91.229.132.31","type":"vmess","country":"🇭🇰HK","port":8088,"uuid":"3a3befc9-e26e-431a-a442-a6ed789df2e9","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/aa?ed=2048"}}
  - {"name":"🇭🇰HK_07","server":"91.229.132.31","type":"vmess","country":"🇭🇰HK","port":8088,"uuid":"3a3befc9-e26e-431a-a442-a6ed789df2e9","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"ws-opts":{"path":"/aa?ed=2048","headers":{"Host":"91.229.132.31"}}}
- - {"name":"🇭🇰HK_08","server":"hrgdvpn.flycdnedc55.vip","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":64,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/opt/video/images"}}
+ - {"name":"Relay_🇭🇰HK-🇭🇰HK_08","server":"hrgdvpn.flycdnedc55.vip","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":64,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/opt/video/images"}}
  - {"name":"Relay_🇭🇰HK-🇭🇰HK_09","server":"hkt.123ddns.xyz","type":"vmess","country":"🇭🇰HK","port":55455,"uuid":"d2ce45e6-9f22-492d-d81d-d639067a7583","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"ws-opts":{"path":"/","headers":{"Host":""}}}
  - {"name":"Relay_🇭🇰HK-🇭🇰HK_10","server":"hkt.123ddns.xyz","type":"vmess","country":"🇭🇰HK","port":55455,"uuid":"d2ce45e6-9f22-492d-d81d-d639067a7583","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/"}}
  - {"name":"Relay_🇭🇰HK-🇭🇰HK_11","server":"hkt.123ddns.xyz","type":"vmess","country":"🇭🇰HK","port":55455,"uuid":"d2ce45e6-9f22-492d-d81d-d639067a7583","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"HOST":"hkt.123ddns.xyz"}}}
  - {"name":"Relay_🇭🇰HK-🇭🇰HK_12","server":"hkt.123ddns.xyz","type":"vmess","country":"🇭🇰HK","port":55455,"uuid":"d2ce45e6-9f22-492d-d81d-d639067a7583","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{}}
  - {"name":"🇹🇼TW_13","server":"23.248.176.96","type":"ss","country":"🇹🇼TW","port":44444,"udp":true,"password":"123456","cipher":"aes-128-gcm"}
  - {"name":"Relay_🇹🇼TW-🇹🇼TW_14","server":"61.219.15.81","type":"vmess","country":"🇹🇼TW","port":11872,"uuid":"0913b1ac-1f6c-436b-99b4-a5d6e343d025","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
- - {"name":"🇹🇼TW_15","server":"hinet1.applebench.tech","type":"vmess","country":"🇹🇼TW","port":56568,"uuid":"a0043275-5033-4923-9f22-b2f466a8794a","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{}}
- - {"name":"Relay_🇹🇼TW-🇹🇼TW_16","server":"tw1.kidcc.xyz","type":"vmess","country":"🇹🇼TW","port":8443,"uuid":"a8974bec-526d-4b4e-a46f-f0d6626ca576","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"HOST":"tw1.kidcc.xyz"}}}
- - {"name":"Relay_🇹🇼TW-🇹🇼TW_17","server":"tw1.kidcc.xyz","type":"vmess","country":"🇹🇼TW","port":8443,"uuid":"a8974bec-526d-4b4e-a46f-f0d6626ca576","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/"}}
+ - {"name":"Relay_🇹🇼TW-🇹🇼TW_15","server":"hinet1.applebench.tech","type":"vmess","country":"🇹🇼TW","port":56568,"uuid":"a0043275-5033-4923-9f22-b2f466a8794a","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{}}
+ - {"name":"Relay_🇹🇼TW-🇹🇼TW_16","server":"tw1.kidcc.xyz","type":"vmess","country":"🇹🇼TW","port":8443,"uuid":"a8974bec-526d-4b4e-a46f-f0d6626ca576","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/"}}
+ - {"name":"Relay_🇹🇼TW-🇹🇼TW_17","server":"tw1.kidcc.xyz","type":"vmess","country":"🇹🇼TW","port":8443,"uuid":"a8974bec-526d-4b4e-a46f-f0d6626ca576","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"HOST":"tw1.kidcc.xyz"}}}
 
 
 proxy-groups:
@@ -52,14 +52,14 @@ proxy-groups:
       - Relay_🇭🇰HK-🇺🇸US_05
       - 🇭🇰HK_06
       - 🇭🇰HK_07
-      - 🇭🇰HK_08
+      - Relay_🇭🇰HK-🇭🇰HK_08
       - Relay_🇭🇰HK-🇭🇰HK_09
       - Relay_🇭🇰HK-🇭🇰HK_10
       - Relay_🇭🇰HK-🇭🇰HK_11
       - Relay_🇭🇰HK-🇭🇰HK_12
       - 🇹🇼TW_13
       - Relay_🇹🇼TW-🇹🇼TW_14
-      - 🇹🇼TW_15
+      - Relay_🇹🇼TW-🇹🇼TW_15
       - Relay_🇹🇼TW-🇹🇼TW_16
       - Relay_🇹🇼TW-🇹🇼TW_17
 
@@ -76,14 +76,14 @@ proxy-groups:
       - Relay_🇭🇰HK-🇺🇸US_05
       - 🇭🇰HK_06
       - 🇭🇰HK_07
-      - 🇭🇰HK_08
+      - Relay_🇭🇰HK-🇭🇰HK_08
       - Relay_🇭🇰HK-🇭🇰HK_09
       - Relay_🇭🇰HK-🇭🇰HK_10
       - Relay_🇭🇰HK-🇭🇰HK_11
       - Relay_🇭🇰HK-🇭🇰HK_12
       - 🇹🇼TW_13
       - Relay_🇹🇼TW-🇹🇼TW_14
-      - 🇹🇼TW_15
+      - Relay_🇹🇼TW-🇹🇼TW_15
       - Relay_🇹🇼TW-🇹🇼TW_16
       - Relay_🇹🇼TW-🇹🇼TW_17
 
@@ -99,14 +99,14 @@ proxy-groups:
       - Relay_🇭🇰HK-🇺🇸US_05
       - 🇭🇰HK_06
       - 🇭🇰HK_07
-      - 🇭🇰HK_08
+      - Relay_🇭🇰HK-🇭🇰HK_08
       - Relay_🇭🇰HK-🇭🇰HK_09
       - Relay_🇭🇰HK-🇭🇰HK_10
       - Relay_🇭🇰HK-🇭🇰HK_11
       - Relay_🇭🇰HK-🇭🇰HK_12
       - 🇹🇼TW_13
       - Relay_🇹🇼TW-🇹🇼TW_14
-      - 🇹🇼TW_15
+      - Relay_🇹🇼TW-🇹🇼TW_15
       - Relay_🇹🇼TW-🇹🇼TW_16
       - Relay_🇹🇼TW-🇹🇼TW_17
 
@@ -123,14 +123,14 @@ proxy-groups:
       - Relay_🇭🇰HK-🇺🇸US_05
       - 🇭🇰HK_06
       - 🇭🇰HK_07
-      - 🇭🇰HK_08
+      - Relay_🇭🇰HK-🇭🇰HK_08
       - Relay_🇭🇰HK-🇭🇰HK_09
       - Relay_🇭🇰HK-🇭🇰HK_10
       - Relay_🇭🇰HK-🇭🇰HK_11
       - Relay_🇭🇰HK-🇭🇰HK_12
       - 🇹🇼TW_13
       - Relay_🇹🇼TW-🇹🇼TW_14
-      - 🇹🇼TW_15
+      - Relay_🇹🇼TW-🇹🇼TW_15
       - Relay_🇹🇼TW-🇹🇼TW_16
       - Relay_🇹🇼TW-🇹🇼TW_17
 
@@ -160,14 +160,14 @@ proxy-groups:
       - Relay_🇭🇰HK-🇺🇸US_05
       - 🇭🇰HK_06
       - 🇭🇰HK_07
-      - 🇭🇰HK_08
+      - Relay_🇭🇰HK-🇭🇰HK_08
       - Relay_🇭🇰HK-🇭🇰HK_09
       - Relay_🇭🇰HK-🇭🇰HK_10
       - Relay_🇭🇰HK-🇭🇰HK_11
       - Relay_🇭🇰HK-🇭🇰HK_12
       - 🇹🇼TW_13
       - Relay_🇹🇼TW-🇹🇼TW_14
-      - 🇹🇼TW_15
+      - Relay_🇹🇼TW-🇹🇼TW_15
       - Relay_🇹🇼TW-🇹🇼TW_16
       - Relay_🇹🇼TW-🇹🇼TW_17
 
