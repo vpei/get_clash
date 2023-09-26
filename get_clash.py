@@ -34,7 +34,7 @@ if element:
     # 获取 rand 参数的值
     rand_value = params.get('rand', [''])[0]
     print("随机值为:",rand_value)
-    clash_url="https://wanshanziwo.eu.org/clash/proxies?c=CN,HK,TW&type=ss,ssr,vmess,trojan,vless,wireguard&acl=true&rand="+rand_value
+    clash_url="https://wanshanziwo.eu.org/clash/proxies?c=AT,CN,IN,HK,JP,NL,RU,SG,TW,US&type=ss,ssr,vmess,trojan,vless,hysteria,wireguard&acl=true&rand="+rand_value
     airport_url="https://wanshanziwo.eu.org/airport?rand="+rand_value
     print(clash_url)
     print(airport_url)
